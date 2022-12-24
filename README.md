@@ -2,8 +2,8 @@
 
 UPDATED DAILY at 13.00
 
-<code>
- " systemctl stop humansd.service
+
+ <code> " systemctl stop humansd.service
 
 cp $HOME/.humans/data/priv_validator_state.json $HOME/.humans/priv_validator_state.json.backup
 
