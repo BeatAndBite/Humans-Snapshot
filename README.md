@@ -3,7 +3,7 @@
 UPDATED DAILY at 13.00
 
 <code>
-  systemctl stop humansd.service
+ " systemctl stop humansd.service
 
 cp $HOME/.humans/data/priv_validator_state.json $HOME/.humans/priv_validator_state.json.backup
 
@@ -23,5 +23,5 @@ wget -O $HOME/.humans/config/addrbook.json "https://raw.githubusercontent.com/Bc
 
 
 systemctl start humansd.service; \
-journalctl -u humansd.service -f --no-hostname
+journalctl -u humansd.service -f --no-hostname "
 </code>
